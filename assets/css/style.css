@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  background-color: #F1634F
+  background-color: #F1634F;
   padding: 67px 0;
 }
 
@@ -14,7 +14,11 @@ header > h1 {
   font-weight: 800;
   color: #ffffff;
   margin: 0 0 40px 0;
-  
+  }
 
-
-}
+  header > ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+  }
