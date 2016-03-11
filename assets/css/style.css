@@ -1,7 +1,7 @@
 body {
-  margin: 0;
   background-color: blueviolet;
-}
+  margin: 0;
+  }
 
 header {
   background-color: #F1634F;
@@ -34,3 +34,26 @@ li > a {
     font-size: 18px;
     font-weight: 400;
   }
+
+section {
+  padding: 60px 80px;
+
+}
+
+section > h3 {
+  margin:0 0 40px 0;
+  }
+
+#about > p {
+    float: right;
+    width: 60%;
+}
+
+#about > div {
+  display: inline-block;
+  width: 40%;
+}
+
+#about > div > img {
+  width: 97%;
+}
